@@ -22,17 +22,13 @@ function playerWinner(){
         }
   
 }
-const attempts=0;
 function handleClick(ele){
 const id=Number(ele.id);
 if(arr[id]!=null) return;
-attempts++;
 arr[id]=currentPlayer;
 ele.innerText=currentPlayer;
-        if(attempts>=4){
-            playerWinner();    
-        }
-
+       
+   playerWinner();  
 currentPlayer = currentPlayer === "X" ? "O" : "X";
 
 
