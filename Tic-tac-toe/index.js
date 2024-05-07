@@ -20,20 +20,15 @@ function playerWinner(){
         if(!arr.some((e)=> e === null)){
             gameWinner.innerHTML= (`Opps Match is Draw. Try agin?`);
         }
-  
 }
 function handleClick(ele){
 const id=Number(ele.id);
 if(arr[id]!=null) return;
 arr[id]=currentPlayer;
-ele.innerText=currentPlayer;
-       
+ele.innerText=currentPlayer;  
    playerWinner();  
 currentPlayer = currentPlayer === "X" ? "O" : "X";
-
-
 }
-
 
 function handleReset() {
     window.location.reload(); // Reloads the current page
