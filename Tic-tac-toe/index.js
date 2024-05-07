@@ -34,8 +34,7 @@ currentPlayer = currentPlayer === "X" ? "O" : "X";
 
 }
 
-// const resetButton = document.getElementById("resetButton");
-// resetButton.addEventListener('click', handleReset)
+
 function handleReset() {
     window.location.reload(); // Reloads the current page
   }
