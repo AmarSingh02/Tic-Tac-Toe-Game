@@ -1,5 +1,4 @@
 .col {
-  /* width: 40px; */
   height: 65px;
   border: 1px solid rgb(186, 186, 186);
   border-top: none;
@@ -9,7 +8,6 @@ align-items: center;
 font-size: 28px;
 cursor: pointer;
 transition: .5s;
-  /* border-bottom: none; */
 }
 
 .col:last-child {
@@ -18,14 +16,10 @@ transition: .5s;
 .col:first-child {
   border-left: none;
 }
-/* .row > .col:last-child {
-    border-bottom: none;
-  } */
   .last-row > .col {
     border-bottom: none;
   }
     
-
   button{
     background: #32A4D5;
     border-radius: 8px;
@@ -46,7 +40,6 @@ transition: .5s;
 
   .startgame{
     margin-left: 525px;
-    /* text-decoration: underline; */
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
@@ -65,7 +58,6 @@ transition: .5s;
     font-weight: bold;
 
     &:hover{
-        /* background-color: #0ea6e7; */
         background-color:red;
     }
 }
@@ -115,6 +107,4 @@ transition: .5s;
     }
     
 }
-@media screen and (min-width:1024px){
-    
-}
+
